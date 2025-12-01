@@ -1,5 +1,8 @@
 return {
     'rcarriga/nvim-notify',
+    dependencies = {
+        'nvim-telescope/telescope.nvim',
+    },
     opts = {
         top_down = false,
         render = 'minimal',
