@@ -9,11 +9,6 @@ return {
     opts = {
         keymap = {
             preset = 'enter',
-            ['<Tab>'] = {
-                'snippet_forward',
-                function() return require('sidekick').nes_jump_or_apply() end,
-                'fallback',
-            },
         },
         completion = {
             menu = { border = 'single' },
